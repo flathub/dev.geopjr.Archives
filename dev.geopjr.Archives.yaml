@@ -29,8 +29,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GeopJr/Archives.git
-        tag: v0.1.0
-        commit: a2346b9e9eccc6de8e4c8373395d6997541f783d
+        tag: v0.2.0
+        commit: eac636364f9e5e2f6461bd41f005b7502799078c
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
