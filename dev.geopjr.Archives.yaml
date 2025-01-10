@@ -29,40 +29,40 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GeopJr/Archives.git
-        tag: v0.2.0
-        commit: eac636364f9e5e2f6461bd41f005b7502799078c
+        tag: v0.3.0
+        commit: 2988c446d9def0eb86d9df92aecedb430503396c
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
         dest: offline/ruffle/
-        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-10-01/ruffle-nightly-2024_10_01-web-selfhosted.zip
-        sha256: 555981528e3425d97c6f2d3e39078b63756741afe2d5c903d82684938c4173e4
+        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-01-07/ruffle-nightly-2025_01_07-web-selfhosted.zip
+        sha256: c3b0d27f07b8b42611a25ef011a40e04ac3c83ef464286c48a3a4c055e8c002c
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/single-filez-cli/2962d4f89accbb36aaaa1502022bb29715497566/lib/single-file.js
-        sha256: 4d022d720d329fca4eca6250b242626038a09c655210a3ec4f44680cc6970930
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file.js
+        sha256: c44c62a05937e672f03617b6b5ebbd1a5761159c973f38b3d09892567492dfa8
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/single-filez-cli/2962d4f89accbb36aaaa1502022bb29715497566/lib/single-file-bootstrap.js
-        sha256: b48fafbc039395732021a2f6f6ec6341a89fe2c0da4688f8fe0f7443e135c973
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-bootstrap.js
+        sha256: 0cd1ac35bedfae6876e1bd229f934bb828ca556986929e08d809da9f903c0ee0
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/single-filez-cli/2962d4f89accbb36aaaa1502022bb29715497566/lib/single-file-hooks-frames.js
-        sha256: b920e644e5ce901682979a8d6d5fe29fd03e0c09f4ef883db19c3749dea71af3
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-hooks-frames.js
+        sha256: 4c34e85dafb9bc3f5b29c1bd4b613f041953f83b411127d3773e907f28565375
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/single-filez-cli/2962d4f89accbb36aaaa1502022bb29715497566/lib/single-file-zip.min.js
-        sha256: d29f43d946f0cfd71f6a472938a9d392116a4bb275435001c248732687bf39e6
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-zip.min.js
+        sha256: aaa469331785531a135be3b895caef3c7876d006d736bc6cf402c7f870e5c0a3
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/c24cafe21015da4e4c05c9f75c2b9991c2501849/ui.js
-        sha256: a9f078a5667d65d6bba639f48f0d1fa59713a5c928bc48c5f1d97aabba50f940
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/ui.js
+        sha256: 79e0838d7d1d2fa876b8c27b202168f8c5083a12eae3821514e6209feee1e473
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/c24cafe21015da4e4c05c9f75c2b9991c2501849/sw.js
-        sha256: 0ca31e3a561e23eaa880e501808e777424b2c51001d5074fe889d00d93f84047
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/sw.js
+        sha256: b53394f214def58a65edb756c3fd578b9ca4c2470626ff3ed30a3cc13125bd11
       - type: file
         dest: data/vendored/adblock/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/c24cafe21015da4e4c05c9f75c2b9991c2501849/adblock/adblock.gz
-        sha256: c341c54e88fe1159e72a345f33dfa1c45f85247bb7ce94ff6ab5ad68c51c231b
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/adblock/adblock.gz
+        sha256: b07eb301e84271c3a7d07819d5db5183ca213b336adfa5a6675e04aea99ad159
