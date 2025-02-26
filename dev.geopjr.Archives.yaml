@@ -29,40 +29,44 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GeopJr/Archives.git
-        tag: v0.3.0
-        commit: 2988c446d9def0eb86d9df92aecedb430503396c
+        tag: v0.4.0
+        commit: c83071cc64ca7119469a08ca69b119ee9be742d1
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
         dest: offline/ruffle/
-        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-01-07/ruffle-nightly-2025_01_07-web-selfhosted.zip
-        sha256: c3b0d27f07b8b42611a25ef011a40e04ac3c83ef464286c48a3a4c055e8c002c
+        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-02-26/ruffle-nightly-2025_02_26-web-selfhosted.zip
+        sha256: 1381aeddc55a372ac374919dd498ce98be34d8450d0c045636f73974fff67a22
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file.js
-        sha256: c44c62a05937e672f03617b6b5ebbd1a5761159c973f38b3d09892567492dfa8
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/77cf1b325139b95a2ca64616b9dfd60be0971e14/lib/single-file.js
+        sha256: a0678bf9286f44e9cba5a5d84a6fb1ff8d225f8b9c78d262bd09d5b0cae3aa1e
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-bootstrap.js
-        sha256: 0cd1ac35bedfae6876e1bd229f934bb828ca556986929e08d809da9f903c0ee0
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/77cf1b325139b95a2ca64616b9dfd60be0971e14/lib/single-file-bootstrap.js
+        sha256: 139eb576fbd4eb411099151ed9d6edcb9bce79e0a0d4f8c9f104c31cc0013e3f
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-hooks-frames.js
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/77cf1b325139b95a2ca64616b9dfd60be0971e14/lib/single-file-hooks-frames.js
         sha256: 4c34e85dafb9bc3f5b29c1bd4b613f041953f83b411127d3773e907f28565375
       - type: file
         dest: offline/
-        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/adba2dbe0d9360d7bdaae9fb9732ae298d00e1c3/lib/single-file-zip.min.js
-        sha256: aaa469331785531a135be3b895caef3c7876d006d736bc6cf402c7f870e5c0a3
+        url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/77cf1b325139b95a2ca64616b9dfd60be0971e14/lib/single-file-zip.min.js
+        sha256: 1418380d6a57c9ee68888374ed5da12b3fabb2df4e2815825143248ce3d93a5c
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/ui.js
-        sha256: 79e0838d7d1d2fa876b8c27b202168f8c5083a12eae3821514e6209feee1e473
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/74e6abc30951bd8602f2ed059ac5b5dd9adba9db/ui.js
+        sha256: c9e06bf15dc5df575b5fb95eae0e271278aa93cac03aac12acf9016473f40e8d
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/sw.js
-        sha256: b53394f214def58a65edb756c3fd578b9ca4c2470626ff3ed30a3cc13125bd11
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/74e6abc30951bd8602f2ed059ac5b5dd9adba9db/sw.js
+        sha256: 07780edd3bbff9bb5bd2002141edeaa5c63b950ff8d81a3a0b2377b28f16a13e
       - type: file
         dest: data/vendored/adblock/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/851d87e6dd8e18869dac9b647350ff3bf58241c3/adblock/adblock.gz
-        sha256: b07eb301e84271c3a7d07819d5db5183ca213b336adfa5a6675e04aea99ad159
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/74e6abc30951bd8602f2ed059ac5b5dd9adba9db/adblock/adblock.gz
+        sha256: e360962437897b10a1a0776ccc137f7b79b3d83792b401fce06d2015c5a4a960
+      - type: archive
+        dest: offline/kiwix/
+        url: https://github.com/kiwix/kiwix-js/archive/7bd14bd3288eed8f0472bf4efc82f171ad315837.zip
+        sha256: c6e4df586ce1e6d21cc02f88afa674fe931b12cd08e9e1329ce8300c610bf548
