@@ -1,6 +1,6 @@
 app-id: dev.geopjr.Archives
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: dev.geopjr.Archives
 finish-args:
@@ -36,8 +36,8 @@ modules:
           tag-pattern: ^v([\d.]+)$
       - type: archive
         dest: offline/ruffle/
-        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-07-01/ruffle-nightly-2025_07_01-web-selfhosted.zip
-        sha256: f52752931be6d4741d6d73f71798099a10531f2b730cd5013ce0e70ee528df3f
+        url: https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-09-29/ruffle-nightly-2025_09_29-web-selfhosted.zip
+        sha256: f64969837ffb4a26a441adaad77fb48303b1daccec8a72418821690a3e253e81
       - type: file
         dest: offline/
         url: https://raw.githubusercontent.com/gildas-lormeau/SingleFile-MV3/735ee59616129f16244262a36923ef92dd8d5b9a/lib/single-file.js
@@ -56,17 +56,17 @@ modules:
         sha256: 1418380d6a57c9ee68888374ed5da12b3fabb2df4e2815825143248ce3d93a5c
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/6112438383e9a4c419f4d3b0967016a595692ec8/ui.js
-        sha256: 461fb6eb9a428b064f8070ee725507c3d20442e8369757dbb3a8681d875d4c04
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/41ee9d29601ea424caa85424640d80a36d2aa199/ui.js
+        sha256: 47b2209bc3e25f917c92c72aebf0565135204f0942179f1cc2ef317319854ca4
       - type: file
         dest: data/vendored/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/6112438383e9a4c419f4d3b0967016a595692ec8/sw.js
-        sha256: 0cc2ea1e921f579041cbda3f781676e5c84f0b25bca61342a8251353f6abe4a9
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/41ee9d29601ea424caa85424640d80a36d2aa199/sw.js
+        sha256: 13a71230254ec7ec0f583fe262dc05bea857c6c5fb75fc6d5fcd4d22633d6a1a
       - type: file
         dest: data/vendored/adblock/
-        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/6112438383e9a4c419f4d3b0967016a595692ec8/adblock/adblock.gz
-        sha256: c37a139c1d8d3fa73aa10a8abc532f990b16a8e904ab974ab10180862b38c377
+        url: https://raw.githubusercontent.com/webrecorder/replayweb.page/41ee9d29601ea424caa85424640d80a36d2aa199/adblock/adblock.gz
+        sha256: 1ad46ce928bc9dd57e986431b0bd1aeb0f90df320d27cf34ae3f6fc6e1fa7e36
       - type: archive
         dest: offline/kiwix/
-        url: https://github.com/kiwix/kiwix-js/archive/380f5e3df7a05f0f957021867495c6305b98e7c9.zip
-        sha256: d34b405fec4ce57de7c860a80d744702c0c8ab85d48ad98c3e65bdae51231128
+        url: https://github.com/kiwix/kiwix-js/archive/940f2d4dae58ef365d4e7d09a979fa8a18c79d2a.zip
+        sha256: f7943e7d38f771ba7886dc120bc6a8054248c75833b537a4d980b048adc432da
