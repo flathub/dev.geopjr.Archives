@@ -1,6 +1,6 @@
 app-id: dev.geopjr.Archives
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: dev.geopjr.Archives
 finish-args:
@@ -10,17 +10,6 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --socket=pulseaudio
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /man
-  - /share/doc
-  - /share/gtk-doc
-  - /share/man
-  - /share/pkgconfig
-  - /share/vala
-  - '*.la'
-  - '*.a'
 modules:
   - name: archives
     buildsystem: meson
